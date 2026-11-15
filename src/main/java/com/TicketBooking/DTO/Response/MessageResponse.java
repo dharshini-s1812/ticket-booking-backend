@@ -1,0 +1,11 @@
+package com.TicketBooking.DTO.Response;
+
+import lombok.*;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class MessageResponse {
+    private String message;
+}
