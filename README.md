@@ -80,6 +80,4 @@ src/main/java/com/TicketBooking/
 
 ## Known limitations
 
-- `SecurityConfig` currently has `/api/**` set to `permitAll` (marked "change this at end"), so role checks are not enforced yet. Lock down `/api/admin/**` to `ROLE_ADMIN` before any public deployment.
-- CORS allows all origins; restrict it to your frontend's origin in production.
 - Payments are simulated.
